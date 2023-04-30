@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+    <link rel="stylesheet" href="./styles_CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <img src="Images_du_Site/logo.png" alt="logo image" class="logo" />
+        <ul>
+          <li><a href="#header">Accueil</a></li>
+          <li><a href="./Autres_Pages/Utilisation.html">Utilisation </a></li>
+          <li><a href="./Autres_Pages/Presentation.html">Présentation</a></li>
+
+          <li>
+            <a
+              href="https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique"
+              target="_blank"
+              >Plus d'information
+            </a>
+          </li>
+          <li><a href="./Autres_Pages/liste.html">Réalisé par ?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <article>
+        <h1>Introduction aux balises sémantiques</h1>
+        <p>
+          Une balise sémantique est une balise qui donne une indication sur le
+          contenu qu’elle entoure. Comprenez que les balises <code>div</code> ou
+          <code>span</code> ne peuvent donner aucune indication sur les éléments
+          qu’elles contiennent du fait que la documentation HTML ne donne
+          pratiquement aucune limite au type de contenu possible entre ces
+          balises, ce ne sont donc pas des balises sémantiques.
+        </p>
+
+        <p>
+          Certaines balises plus récente comme les balises <code>Header</code>,
+          <code>Footer</code> ou encore <code>Article</code> ont alors été
+          ajouté à HTML pour permettre un découpage plus précis de votre page
+          web en délimitant des zones spécifiques. Le fait de baliser votre
+          document HTML va permettre aux robots d’indexations de mieux
+          interpréter votre page web, et donc de cibler le réel contenu que vous
+          souhaitez mettre en avant. L’un des autres atouts de ce nouveau type
+          de balisage, est le fait qu’il permette une meilleure accessibilité
+          des contenus pour les personnes nécessitant des logiciels de lecture
+          de site pour consulter le web.
+        </p>
+      </article>
+      <img src="./Images_du_Site/semantic.png" alt="semantic image" />
+    </main>
+
+    <footer>
+      <p>
+        Réalisé par les étudiants de groupe&nbsp;<img
+          class="rot"
+          src="./Images_du_Site/5.svg"
+          alt="number 5"
+        />
+      </p>
+    </footer>
+  </body>
+</html>

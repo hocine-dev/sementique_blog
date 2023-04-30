@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Présentation</title>
+    <link rel="stylesheet" href="../styles_CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <img src="../Images_du_Site/logo.png" alt="logo image" class="logo" />
+        <ul>
+          <li><a href="../accueil.html">Accueil</a></li>
+          <li><a href="./Utilisation.html">Utilisation </a></li>
+          <li><a href="#header">Présentation</a></li>
+
+          <li>
+            <a
+              href="https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique"
+              target="_blank"
+              >Plus d'information
+            </a>
+          </li>
+          <li><a href="./liste.html">Réalisé par ?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <article>
+        <h1>Présentation des balises sémantiques</h1>
+
+        <h2>Les contenu indépendants avec article</h2>
+        <p>
+          Le contenu éditorial de votre site peut être balisé à l’aide de la
+          balise <code>article</code>. Cette balise va permettre de signaler aux
+          robots d’indexation quel éléments sont en lien avec le sujet de la
+          page. Vous pouvez glisser dans la balise <code>article</code>, le
+          titre, les informations sur l’auteur ou la date de publication, la
+          catégorie, le corps de l’article, et les articles annexes d’une même
+          thématique. La bonne tenu de la balise article va également dépendre
+          de l’objectif de votre site web. Cette balise a d’autant plus
+          d’importance sur un site e-commerce, un site d’actualité ou un blog.
+        </p>
+        <h2>Créer un découpage plus précis avec section</h2>
+        <p>
+          Le contenu de notre site présent dans une des balises
+          <code>main</code> ou <code>article</code> peut être plus ou moins
+          complexe, c’est pour cela qu’il est important de correctement
+          structurer le contenu principal de la page en plusieurs zones. Pour
+          cela, il existe la balise <code>section</code> permettant un découpage
+          plus thématique que les balises <code>main</code> et
+          <code>article</code> vues précédemment. Chaque nouvelle balise
+          <code>section</code> indique aux robots d’indexations une variétés de
+          contenu différents pour une même page. Là encore n’hésitez pas à
+          inspecter des sites web à l’aide des outils pour développeurs de votre
+          navigateurs, afin de bien comprendre la structure des pages.
+        </p>
+        <h2>Le pied de page avec footer</h2>
+        <p>
+          cette balise sert principalement à délimiter la pied de page. On
+          retrouvera alors souvent cette balise à côté de la balise
+          <code>main</code>. Dans le footer on insère en général des liens de
+          navigation, le logo du site et le lien vers les mentions légales. On
+          peut également placer des balises <code>nav</code> dans le footer afin
+          de délimiter des zones de navigation secondaire. On peut également
+          utiliser la balise footer pour baliser une fin d’article ou de
+          section, de la même manière que le fait le header. On pourra alors y
+          placer les crédits et les informations annexes ayant une importance
+          moindre que le contenu principal.
+        </p>
+
+        <div class="next">
+          <a href="./Presentation3.html">Aller a la Page Suivante</a>
+        </div>
+      </article>
+      <img
+        src="../Images_du_Site/section_level.png"
+        alt="section level image"
+      />
+    </main>
+
+    <footer>
+      <p>
+        Réalisé par les étudiants de groupe&nbsp;<img
+          class="rot"
+          src="../Images_du_Site/5.svg"
+          alt="number 5"
+        />
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+/* début de style pour le header */
+
+header {
+  height: 90px;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 80px;
+  margin-inline: 5%;
+  transition: 1s;
+}
+.logo:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  width: 60%;
+}
+nav ul li {
+  display: inline-block;
+  margin-inline: 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+
+  margin-inline: 10px;
+  color: black;
+  font-family: cursive, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+nav ul li a:hover {
+  color: red;
+  border-bottom: 1px solid blue;
+  transform: scale(1.2);
+}
+
+/* fin de style pour le header */
+
+/* début de style pour le main */
+
+main {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main article {
+  width: 60%;
+}
+main article h1 {
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: cursive;
+  padding: 2%;
+  margin-top: 5%;
+  text-transform: capitalize;
+}
+main article h2 {
+  padding: 2%;
+  color: red;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+main article p {
+  font-size: 20px;
+  padding: 2%;
+  line-height: 2;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+main article p code {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+main img {
+  width: 30%;
+  margin: 5%;
+  transition: 1s;
+}
+main img:hover {
+  transform: scale(1.3);
+}
+
+.next a {
+  font-size: 25px;
+  color: blue;
+  text-decoration: none;
+  padding-block: 3%;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* fin de style pour le main */
+
+/* début de style pour le footer */
+
+footer {
+  height: 70px;
+  background-color: #f78487;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Footer p {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
+.rot {
+  transition: 1s;
+  width: 13px;
+}
+
+footer:hover .rot {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.list li {
+  font-size: 25px;
+  font-family: cursive;
+  padding-block: 2%;
+}
+.list li:hover {
+  font-size: 30px;
+  color: red;
+}
+/* fin de style pour le footer */

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Présentation</title>
+    <link rel="stylesheet" href="../styles_CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <img src="../Images_du_Site/logo.png" alt="logo image" class="logo" />
+        <ul>
+          <li><a href="../accueil.html">Accueil</a></li>
+          <li><a href="./Utilisation.html">Utilisation </a></li>
+          <li><a href="#header">Présentation</a></li>
+
+          <li>
+            <a
+              href="https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique"
+              target="_blank"
+              >Plus d'information
+            </a>
+          </li>
+          <li><a href="./liste.html">Réalisé par ?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <article>
+        <h1>Présentation des balises sémantiques</h1>
+        <h2>Les balises de structure de page</h2>
+        <p>
+          lorsque on entend parler de sémantique, on pense généralement
+          uniquement aux balises de structure et non de contenu, mais l’ensemble
+          des balises sémantiques permettent de donner un sens aux éléments
+          qu’elles contiennent, et donc aux pages web. voici quelque balises
+          sémantiques ajoutée à <code>HTML5</code> permettant un meilleur
+          balisage de la structure d’une page.
+        </p>
+        <h2>L'entête du site avec header</h2>
+        <p>
+          Sur un site internet, on peut observer la partie haute, appelée
+          ‘entête’ ou ‘header’ en anglais, que l’on retrouve sur l’ensemble des
+          pages du site. Cette zone peut alors être définie à l’aide de la
+          balise <code>header</code>. De manière générale, on retrouvera dans
+          cette zone le logo, et au minimum, la navigation principale du site.
+          La balise <code>header</code> peut apparaître plusieurs fois sur la
+          page, elle peut également être utilisée pour délimiter l’entête d’un
+          article de blog ou d’une section par exemple. Une balise
+          <code>header</code> ne peut pas être contenue dans une autre balise
+          <code>header</code>.
+        </p>
+        <h2>Les menu de navigation avec nav</h2>
+        <p>
+          Dans la balise <code>header</code> , nous pouvons ajouter une zone
+          servant à délimiter la navigation principale du site web. Cette zone
+          peut être définie à l’aide de la balise sémantique <code>Nav</code>.
+          Il faut tout de même savoir que la balise <code>Nav</code> n’est pas
+          forcément placée dans le header d’un site, on peut la retrouver
+          n’importe où et à plusieurs endroits de la page comme par exemple dans
+          le footer ou dans une barre latérale de contenu (sidebar).
+        </p>
+        <h2>Le contenu principal avec main</h2>
+        <p>
+          La balise <code>main</code> sert à définir la zone (souvent grande) de
+          votre page qui possède le contenu utile de la page. Dans l'idéal, le
+          contenu de la balise <code>main</code> devrait être unique à la page.
+          C’est dans cette balise que vous allez coder la majorité du contenu de
+          votre site web. De manière générale, on conseille d’utiliser une seule
+          balise <code>main</code> par page, mais il est possible d’en avoir
+          plusieurs en parallèle, à condition de n’en afficher qu’une seule à la
+          fois (à l’aide de l’attribut hidden).
+        </p>
+
+        <div class="next">
+          <a href="./Presentation2.html">Aller a la Page Suivante</a>
+        </div>
+      </article>
+      <img
+        src="../Images_du_Site/section_level.png"
+        alt="section level image"
+      />
+    </main>
+
+    <footer>
+      <p>
+        Réalisé par les étudiants de groupe&nbsp;<img
+          class="rot"
+          src="../Images_du_Site/5.svg"
+          alt="number 5"
+        />
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Présentation</title>
+    <link rel="stylesheet" href="../styles_CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <img src="../Images_du_Site/logo.png" alt="logo image" class="logo" />
+        <ul>
+          <li><a href="../accueil.html">Accueil</a></li>
+          <li><a href="./Utilisation.html">Utilisation </a></li>
+          <li><a href="#header">Présentation</a></li>
+
+          <li>
+            <a
+              href="https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique"
+              target="_blank"
+              >Plus d'information
+            </a>
+          </li>
+          <li><a href="./liste.html">Réalisé par ?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <article>
+        <h1>Présentation des balises sémantiques</h1>
+        <h2>Les balises de structure de contenu</h2>
+        <p>
+          Tout comme pour la structure plus générale d’une page vu précédemment,
+          il existe un balisage HTML sémantique plus précis pour baliser le
+          contenu textuel. Il faudra alors correctement choisir chaque balise
+          lorsque vous aurez l’occasion de pouvoir en placer. Un bon balisage
+          sémantique améliore la compréhension de votre contenu par les robots
+          d’indexations des moteurs de recherche, vous devez donc essayer
+          d’avoir le balisage le plus détaillé possible. Pour cela, nous allons
+          voir une liste de balises qu’il peut être intéressant d’utiliser dans
+          vos pages pour consolider sa structure.
+        </p>
+        <h2>Les citations avec blockquote et cite</h2>
+        <p>
+          Lorsque vous souhaitez afficher une citation d’une célébrité ou d’un
+          ouvrage, vous pouvez utiliser la balise <code>blockquote</code> qui
+          servira à encadrer la citation. On balisera le nom et la source à
+          l’aide de la balise <code>cite</code> à l’intérieur même de la balise
+          <code>blockquote</code> .
+        </p>
+        <h2>Baliser une adresse avec address</h2>
+        <p>
+          Dans votre footer ou votre page de contact, il peut être intéressant
+          d’afficher l’adresse locale de votre entreprise. Pour baliser au mieux
+          votre adresse dans la page, il existe la balise HTML
+          <code>address</code> , son usage est simple, il suffit d’encadrer les
+          quelques lignes ou mots de votre adresse avec cette balise et le tour
+          est joué !
+        </p>
+        <h2>Afficher une temporalité avec time</h2>
+        <p>
+          Lorsque l’on souhaite afficher une temporalité, que ce soit la date de
+          publication d’un article ou la date à venir d’un événement présent
+          affiché sur votre site, il peut être judicieux de baliser la date ou
+          l’heure avec la balise <code>time</code> . La balise
+          <code>time</code> possède un attribut datetime qu’il faudra remplir
+          avec l’heure dans un format numérique.
+        </p>
+      </article>
+      <img
+        src="../Images_du_Site/section_level.png"
+        alt="section level image"
+      />
+    </main>
+
+    <footer>
+      <p>
+        Réalisé par les étudiants de groupe&nbsp;<img
+          class="rot"
+          src="../Images_du_Site/5.svg"
+          alt="number 5"
+        />
+      </p>
+    </footer>
+  </body>
+</html>
